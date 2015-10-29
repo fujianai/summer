@@ -646,7 +646,7 @@ function SummerHtmlImageMapCreator() {
 								return '0 objects';
 							}
 		          if(img.width >= 1180) {
-		            html_code += utils.encode('<div style="background: url('+ filename +') no-repeat center top;"><div class="pm"><img src="http://img0.sfht.com/sfhth5/1.1.271/img/spacer.gif" alt="" usemap="#' + time + '" width="100%" height="'+ container_height +'" />') +
+		            html_code += utils.encode('<div style="background: url('+ filename +') no-repeat center top;"><div class="page-center"><img src="http://img0.sfht.com/sfhth5/1.1.271/img/spacer.gif" alt="" usemap="#' + time + '" width="100%" height="'+ container_height +'" />') +
 		              '<br />' + utils.encode('<map name="' + time + '">') + '<br />';
 		            utils.foreachReverse(objects, function(x) {
 		              console.log(objects);
