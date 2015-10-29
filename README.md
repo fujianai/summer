@@ -1,40 +1,10 @@
-Summer html image map creator
-=============================
-[http://github.com/summerstyle/summer] (http://github.com/summerstyle/summer)
+## 项目地址
+[https://github.com/zhouwenbin/summer](https://github.com/zhouwenbin/summer)
 
-Released under the GPL3 (GPL3.txt)
+## 简介
+因为业务需求，需要让运营自己能做一些简单的活动页，所以在github搜索了下，找到一个可以用的，然后做了二次开发。具体优化内容如下：
 
-Main
-----------------
-`F5` — reload the page and display the form for loading image again
-
-`S` — save map params in localStorage
-
-Drawing mode (rectangle / circle / polygon)
--------------------------------------------
-`ENTER` — stop polygon drawing (or click on first helper)
-
-`ESC` — cancel drawing of a new area
-
-`SHIFT` — square drawing in case of a rectangle and right angle drawing in case of a polygon
-
-Editing mode
-------------
-
-`DELETE` — remove a selected area
-
-`ESC` — cancel editing of a selected area
-
-`SHIFT` — edit and save proportions for rectangle
-
-`I` — edit attributes of a selected area (or dblclick on an area)
-
-`CTRL` + `C` — a copy of the selected area
-
-`↑` — move a selected area up
-
-`↓` — move a selected area down
-
-`←` — move a selected area to the left
-
-`→` — move a selected area to the right
+* 界面汉化。
+* 支持大图，大图会自动替换成背景，防止出现滚动条和布局错乱。可根据网站的宽度修改`page-center`的宽度。
+* 支持一个页面多个热点。
+* 拖动上传的图片使用base64地址，可以根据自己服务器的情况修改为线上地址。
